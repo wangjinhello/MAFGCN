@@ -1,0 +1,204 @@
+[
+    {
+        "token": [
+            "The",
+            "sangria",
+            "'s",
+            "-",
+            "watered",
+            "down",
+            "."
+        ],
+        "pos": [
+            "DT",
+            "NN",
+            "POS",
+            ":",
+            "VBN",
+            "RP",
+            "."
+        ],
+        "head": [
+            2,
+            5,
+            2,
+            5,
+            0,
+            5,
+            5
+        ],
+        "deprel": [
+            "det",
+            "nsubj",
+            "case",
+            "punct",
+            "ROOT",
+            "compound:prt",
+            "punct"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "sangria"
+                ],
+                "from": 1,
+                "to": 2,
+                "polarity": "negative"
+            }
+        ]
+    },
+    {
+        "token": [
+            "I",
+            "have",
+            "to",
+            "say",
+            "they",
+            "have",
+            "one",
+            "of",
+            "the",
+            "fastest",
+            "delivery",
+            "times",
+            "in",
+            "the",
+            "city",
+            "."
+        ],
+        "pos": [
+            "PRP",
+            "VBP",
+            "TO",
+            "VB",
+            "PRP",
+            "VBP",
+            "CD",
+            "IN",
+            "DT",
+            "JJS",
+            "NN",
+            "NNS",
+            "IN",
+            "DT",
+            "NN",
+            "."
+        ],
+        "head": [
+            2,
+            0,
+            4,
+            2,
+            6,
+            4,
+            6,
+            12,
+            12,
+            12,
+            12,
+            7,
+            15,
+            15,
+            12,
+            2
+        ],
+        "deprel": [
+            "nsubj",
+            "ROOT",
+            "mark",
+            "xcomp",
+            "nsubj",
+            "ccomp",
+            "dobj",
+            "case",
+            "det",
+            "amod",
+            "compound",
+            "nmod",
+            "case",
+            "det",
+            "nmod",
+            "punct"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "delivery",
+                    "times"
+                ],
+                "from": 10,
+                "to": 12,
+                "polarity": "positive"
+            }
+        ]
+    },
+    {
+        "token": [
+            "Try",
+            "the",
+            "rose",
+            "roll",
+            "(",
+            "not",
+            "on",
+            "menu",
+            ")",
+            "."
+        ],
+        "pos": [
+            "VB",
+            "DT",
+            "NN",
+            "NN",
+            "-LRB-",
+            "RB",
+            "IN",
+            "NN",
+            "-RRB-",
+            "."
+        ],
+        "head": [
+            0,
+            4,
+            4,
+            1,
+            8,
+            8,
+            8,
+            4,
+            8,
+            1
+        ],
+        "deprel": [
+            "ROOT",
+            "det",
+            "compound",
+            "dobj",
+            "punct",
+            "neg",
+            "case",
+            "appos",
+            "punct",
+            "punct"
+        ],
+        "aspects": [
+            {
+                "term": [
+                    "rose",
+                    "roll"
+                ],
+                "from": 2,
+                "to": 4,
+                "polarity": "positive"
+            },
+            {
+                "term": [
+                    "menu"
+                ],
+                "from": 7,
+                "to": 8,
+                "polarity": "neutral"
+            }
+        ]
+    }
+]
